@@ -1,14 +1,14 @@
-/*create database bancoViolino;*/
+create database bancoViolino;
 use bancoViolino;
 
-/*CREATE TABLE vendedor(
+CREATE TABLE vendedor(
 ID_idvendedor INT AUTO_INCREMENT PRIMARY KEY,
 vendedorcol_nome VARCHAR(45) NOT NULL,
 vendedorcol_email VARCHAR(45)  NOT NULL,
 vendedorcol_senha VARCHAR(45)  NOT NULL
 );
 
-/*CREATE TABLE telefone(
+CREATE TABLE telefone(
 idtelefone_vendedor INT AUTO_INCREMENT PRIMARY KEY,
 vendedor_telefone INT  NOT NULL,
 
